@@ -6,12 +6,14 @@ public class Phone {
     public String model;
     public String size;
     public double price;
+    public String color;
 
-    public void setInfo(String brand, String model, String size, double price) {
+    public Phone(String brand, String model, String size, double price, String color) {
         this.brand = brand;
         this.model = model;
         this.size = size;
         this.price = price;
+        this.color=color;
     }
 
     public void call(long phoneNumber){
